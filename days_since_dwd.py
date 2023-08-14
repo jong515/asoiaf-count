@@ -20,7 +20,7 @@ accordingly """
 
 if months == 1:
     msg = ( f"It has been {total_days_since} days since A Dance With Dragons was released. \n\n" 
-        f"OR \n{years} years, {months} month, {days} days since A Dance With Dragons was released.")
+        f"OR \n\n{years} years, {months} month, {days} days since A Dance With Dragons was released.")
 if days == 1:
     msg = ( f"It has been {total_days_since} days since A Dance With Dragons was released. \n\n" 
         f"OR \n\n{years} years, {months} months, {days} day since A Dance With Dragons was released.")
@@ -28,4 +28,4 @@ if months == 1 and days == 1:
     msg = ( f"It has been {total_days_since} days since A Dance With Dragons was released. \n\n" 
         f"OR \n\n{years} years, {months} month, {days} day since A Dance With Dragons was released.")
 
-print(f'Dear GRRM {msg}')
+print(f'Dear GRRM, {msg}')
